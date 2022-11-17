@@ -7,14 +7,10 @@ export default function AssetExample() {
       <View style={styles.linha}>
         <View style={styles.conteudo}>
           <Text style={styles.titulo}>WhatsApp</Text>
-
-          
             <Image
               style={styles.logo}
               source={require('../assets/search.png')}
             />
-          
-
           <Image style={styles.logo} source={require('../assets/sms.png')} />
           <Image
             style={styles.logo}
@@ -71,7 +67,7 @@ export default function AssetExample() {
           <View style={styles.informacao}>
             <Text style={styles.nome}>USUARIO4</Text>
             <Text style={styles.data}>Ontem</Text>
-            <Text style={styles.comentario}>abacaxi é bom demais</Text>
+            <Text style={styles.comentario}>Como vai indo?</Text>
           </View>
         </View>
         <View style={styles.usuarioDes}>
@@ -83,7 +79,7 @@ export default function AssetExample() {
           <View style={styles.informacao}>
             <Text style={styles.nome}>USUARIO5</Text>
             <Text style={styles.data}>15/11</Text>
-            <Text style={styles.comentario}>abacaxi é bom demais</Text>
+            <Text style={styles.comentario}>Trator aerodinâmico</Text>
           </View>
         </View>
         <View style={styles.usuarioDes}>
@@ -131,19 +127,12 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start'
   },
   titulo: {
-    height: 70,
-    width: 100,
+    width: '50%',
     color: '#afdee0',
     marginRight: '30%',
-    marginLeft: '2%',
+    marginLeft: '5%',
     marginTop: '3%',
     fontSize: '120%',
-  },
-  interagir: {
-    height: '120%',
-    width: '6%',
-    marginRight: '5%',
-    marginTop: '5%',
   },
   logo: {
     height: '50%',
@@ -179,12 +168,12 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     marginLeft: '5%',
-    marginBottom: '2%'
+    marginBottom: '5%'
     
   },
   usuario: {
-    height: '90%',
-    width: '18%',
+    height: 50,
+    width: 50,
     backgroundColor: '#dad5d4',
     borderRadius: '50%',
     
@@ -211,23 +200,16 @@ const styles = StyleSheet.create({
   data: {
     width: '20%',
     color: '#141114',
-    fontSize: '80%',
+    fontSize: '70%',
     marginRight: '5%',
   },
   comentario: {
     width: '100%',
     color: '#141114',
     marginTop: '1%',
-    fontSize: '80%',
+    fontSize: '70%',
     
   },
-  linha2: {
-    width: '80%',
-    height: '0.5%',
-    backgroundColor: '#dad5d4',
-    justifyContent: 'flex-end',
-    alignItems: 'flex-end'
-  }
 });
 
 // <Button style={styles.interagir}>
